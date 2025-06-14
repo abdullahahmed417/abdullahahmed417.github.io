@@ -40,3 +40,7 @@ footer {
   padding: 1rem;
   background: #eee;
 }
+
+@media (prefers-color-scheme: dark) {
+  body { background: #111; color: #eee; }
+}
