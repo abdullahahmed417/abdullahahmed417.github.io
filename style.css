@@ -41,6 +41,33 @@ footer {
   background: #eee;
 }
 
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;  /* Makes it circular */
+  object-fit: cover;   /* Ensures image fills the circle */
+  margin: 1rem auto;   /* Centers the image */
+  display: block;      /* Needed for margin auto to work */
+  border: 3px solid #0066cc; /* Optional accent border */
+}
+
+/* Dark mode */
 @media (prefers-color-scheme: dark) {
-  body { background: #111; color: #eee; }
+  body {
+    background: #111;
+    color: #eee;
+  }
+  .project {
+    background: #333;
+  }
+  footer {
+    background: #222;
+  }
+}
+
+/* Hover effects */
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
