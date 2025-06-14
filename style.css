@@ -71,3 +71,24 @@ footer {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
+
+.social-link {
+  display: inline-block;
+  margin: 0 10px;
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-link:hover {
+  color: #E1306C; /* Instagram's pink */
+}
+
+/* Style Font Awesome icons */
+.fab {
+  font-size: 24px;
+  color: #333;
+}
+.fab:hover {
+  color: #E1306C;
+}
